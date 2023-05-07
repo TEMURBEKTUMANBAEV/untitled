@@ -15,7 +15,6 @@ public class WebTest {
         } else {
             System.out.println("Изображение не отображается");
         }
-
         driver.quit();
     }
 }
