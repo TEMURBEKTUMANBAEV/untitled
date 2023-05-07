@@ -9,6 +9,7 @@ public class WebTest {
         String url = "https://next-dentist911.vercel.app/";
         driver.get(url);
 
+        
         WebElement image = driver.findElement(By.cssSelector("img[src='/images/logo.png']"));
         if (image.isDisplayed()) {
             System.out.println("Изображение отображается корректно");
